@@ -1,9 +1,9 @@
-# check_cert_validity
+# check_certificate_expiry
 Monitor a webserver certificate for its expiry date.
 
 ## Usage
 ```
-  Usage: check_snmp [OPTIONS]
+  Usage: cce [OPTIONS]
   [OPTIONS]
   -u URL             URL
   -p PORT            Port (default: 443)
@@ -14,11 +14,11 @@ Monitor a webserver certificate for its expiry date.
 
 ## Example
 ```
-./ccv.sh -u zgheb.com -w 10 -c 5
+./cce.sh -u zgheb.com -w 10 -c 5
 OK: Certificate still valid for 75 days
 ```
 
 ```
-./ccv.sh -u old.zgheb.com -w 20 -c 10
+./cce.sh -u old.zgheb.com -w 20 -c 10
 WARNING: Certificate is only valid for another 18 days
 ```
