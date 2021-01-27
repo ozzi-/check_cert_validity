@@ -1,5 +1,5 @@
 # check_cert_validity
-Monitor a HTTPS certificate for its expiry date.
+Monitor a webserver certificate for its expiry date.
 
 ## Usage
 ```
